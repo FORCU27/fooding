@@ -1,0 +1,6 @@
+[submodule "fooding-backend"]
+	path = fooding-backend
+	url = git@github.com:FORCU27/fooding-backend.git
+[submodule "fooding-frontend"]
+	path = fooding-frontend
+	url = git@github.com:FORCU27/fooding-frontend.git
