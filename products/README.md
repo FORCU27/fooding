@@ -4,7 +4,7 @@ Fooding은 다양한 접점(고객 앱, 사장님 도구, 파트너 마켓 등)�
 
 ## Directory Layout
 ```
-product-modules/
+products/
 ├── README.md
 ├── fooding-user/
 │   ├── README.md          # 모듈 설명
