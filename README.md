@@ -1,4 +1,5 @@
 # 🍽️ Fooding (푸딩)
+>
 > **외식업 운영의 모든 것을 하나로 연결하는 올인원 플랫폼**
 >
 > 예약, 웨이팅, POS, 고객 관리(CRM), 그리고 식자재 마켓까지. 사장님과 손님 모두에게 끊김 없는 경험을 제공합니다.
@@ -6,6 +7,7 @@
 ---
 
 ## 📖 Contents
+
 - [🍽️ Fooding (푸딩)](#️-fooding-푸딩)
   - [📖 Contents](#-contents)
   - [Project Overview](#project-overview)
@@ -28,15 +30,18 @@
 ---
 
 ## Project Overview
+
 **Vision**: "단 하나의 앱으로 연결되는 미식 경험"
 
 기존 외식업 시장은 예약, POS, 웨이팅, 마케팅, 식자재 구매가 모두 파편화되어 있었습니다. **Fooding**은 이를 통합하여 사장님에게는 **효율적인 운영**을, 손님에게는 **편리한 미식 생활**을 제공합니다.
 
 ### 🚩 Problem
+
 - **For Owner**: 예약, POS, 웨이팅, 배달 등 너무 많은 관리 도구, 비싼 수수료, 흩어진 데이터.
 - **For User**: 광고성 리뷰에 대한 피로감, 예약/웨이팅/주문의 번거로운 과정, 통합되지 않는 포인트.
 
 ### 💡 Solution
+
 - **All-in-One**: 앱 하나로 매장 탐색부터 예약, 주문, 결제, 리뷰까지 해결.
 - **Cost Saving**: 파트너 마켓을 통한 식자재 도매가 공급 및 합리적인 플랫폼 수수료.
 - **Seamless UX**: 온/오프라인이 연결된 사용자 경험 (User App ↔ Store POS).
@@ -44,13 +49,16 @@
 ---
 
 ## Service Links
+
 ### Public Sites
+
 | Service | Link |
 |:---:|:---|
 | **Fooding User (Web)** | [https://fooding.im/](https://fooding.im/) |
 | **Fooding CEO (Web)** | [http://ceo.fooding.im/](http://ceo.fooding.im/) |
 
 ### App Downloads
+
 | Product | Android | iOS | Windows | Mac |
 |:---:|:---:|:---:|:---:|:---:|
 | **Fooding POS** | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
@@ -59,6 +67,7 @@
 ---
 
 ## Key Modules
+
 각 모듈의 이름을 클릭하면 상세 명세 문서로 이동합니다. 모든 모듈 관련 에셋은 `projects/fooding/products/<module>/assets/`에 정리합니다.
 
 | Module | Target | Description |
@@ -73,6 +82,7 @@
 ---
 
 ## Core Features
+
 1. **스마트 예약 & 웨이팅**
    - 노쇼 방지를 위한 보증금 시스템 및 AI 기반 혼잡도 예측.
    - 현장 키오스크와 앱의 실시간 대기열 연동.
@@ -88,6 +98,7 @@
 ---
 
 ## System Architecture
+
 ```mermaid
 graph TD
     User[User App/Web] --> GW[API Gateway]
@@ -117,6 +128,7 @@ graph TD
 ---
 
 ## Business Model
+
 - **Platform Fee**: B2B 파트너 거래 수수료 (5~10%), 예약 보증금 수수료.
 - **Subscription**:
   - **Starter**: 무료 (기본 POS/예약)
@@ -126,12 +138,15 @@ graph TD
 ---
 
 ## Roadmap & Status
+
 ### ✅ Completed
+
 - [x] **Frontend**: 사용자 대기 UI, 리뷰/쿠폰 UX, CEO 포인트샵 개편.
 - [x] **Backend**: 단골 관리 API, Kafka 이벤트 파이프라인, SSE 실시간 알림 시스템.
 - [x] **Infra**: ELK 스택 기반 로그/검색 환경 구축.
 
 ### 🚧 In Progress
+
 - [ ] Redis 캐싱 전략 고도화 (Cache Stampede 방지).
 - [ ] 추천 시스템 도입 (협업 필터링 기반 맛집 추천).
 - [ ] Place/Partner 도메인 간 결제 통합 테스트.
@@ -139,6 +154,7 @@ graph TD
 ---
 
 ## Impact Metrics
+
 | Metric | Value | Note |
 |:---:|:---:|:---|
 | **MAU** | 3.0M+ | 월간 활성 사용자 |
@@ -149,24 +165,26 @@ graph TD
 ---
 
 ## Team
+
 저희 팀원들의 이름을 클릭하면 상세 프로필을 확인할 수 있습니다.
 
 | Name | Role | Email | Key Contributions | Links |
 |:---:|:---|:---|:---|:---|
-| [**강주영**](./members/jooyoung_kang.md) | **Leader** · Infra | karjyk@gmail.com | 프로젝트 총괄, CI/CD 파이프라인, 아키텍처 설계 | [Blog](https://velog.io/@kkang_/posts) |
-| [**정영현**](./members/younghyeon_jeong.md) | Backend | jeongyounghyeon1106@gmail.com | API Gateway, 웨이팅 SSE, 성능 최적화 | [GitHub](https://github.com/Jeongyounghyeon) |
-| [**김지연**](./members/jiyeon_kim.md) | Frontend | cleo0718@gmail.com | User App 메인 개발, 예약/리뷰 UX 고도화 | [GitHub](https://github.com/CLEO525) |
-| [**진혜민**](./members/hyemin_jin.md) | Backend | hmjin11@gmail.com | 검색 엔진(ES) 구축, 포인트/리워드 시스템 | [GitHub](https://github.com/hmJin11) |
-| [**고윤아**](./members/yuna_ko.md) | Design | ko.yuna0412@gmail.com | User App UI/UX, 브랜드 아이덴티티, 프로토타이핑 | [LinkedIn](https://www.linkedin.com/in/%EC%9C%A4%EC%95%84-%EA%B3%A0-2804a8306/) |
-| [**김모경**](./members/mokyung_kim.md) | Frontend | monee1001@naver.com | CEO 고객관리 페이지, 매장용 리워드 앱 개발 | [GitHub](https://github.com/moneekim) |
-| [**이원종**](./members/wonjong_lee.md) | Frontend | leewj5192@gmail.com | Electron 기반 CEO 데스크탑 앱, 매장용 웨이팅 앱 | [GitHub](https://github.com/leewj5192) |
-| [**지윤서**](./members/younseo_ji.md) | Design | jysjys7620@naver.com | 사장님(CEO) 대시보드 디자인, 마케팅 에셋 제작 | [LinkedIn](https://www.linkedin.com/in/younseo-ji-10a5053a0) |
-| [**임성제**](./members/seongje_lim.md) | Backend | seongje00416@gmail.com | WebFlux 리액티브 모듈, 실시간 알림 서버, 통계 API | [GitHub](https://github.com/seongje00416) |
-| [**신상호**](./members/sangho_shin.md) | Frontend | nononcrust@gmail.com | 디자인 시스템 구축, 공통 컴포넌트 라이브러리 관리 | [Blog](https://nonon.dev/) |
+| [**고윤아**](./members/yuna_ko.md) | Design | <ko.yuna0412@gmail.com> | User App UI/UX, 브랜드 아이덴티티, 프로토타이핑 | [LinkedIn](https://www.linkedin.com/in/%EC%9C%A4%EC%95%84-%EA%B3%A0-2804a8306/) |
+| [**지윤서**](./members/younseo_ji.md) | Design | <jysjys7620@naver.com> | 사장님(CEO) 대시보드 디자인, 마케팅 에셋 제작 | [LinkedIn](https://www.linkedin.com/in/younseo-ji-10a5053a0) |
+| [**김지연**](./members/jiyeon_kim.md) | Frontend | <cleo0718@gmail.com> | User App 메인 개발, 예약/리뷰 UX 고도화 | [GitHub](https://github.com/CLEO525) |
+| [**김모경**](./members/mokyung_kim.md) | Frontend | <monee1001@naver.com> | CEO 고객관리 페이지, 매장용 리워드 앱 개발 | [GitHub](https://github.com/moneekim) |
+| [**이원종**](./members/wonjong_lee.md) | Frontend | <leewj5192@gmail.com> | Electron 기반 CEO 데스크탑 앱, 매장용 웨이팅 앱 | [GitHub](https://github.com/leewj5192) |
+| [**신상호**](./members/sangho_shin.md) | Frontend | <nononcrust@gmail.com> | 디자인 시스템 구축, 공통 컴포넌트 라이브러리 관리 | [Blog](https://nonon.dev/) |
+| [**정영현**](./members/younghyeon_jeong.md) | Backend | <jeongyounghyeon1106@gmail.com> | API Gateway, 웨이팅 SSE, 성능 최적화 | [GitHub](https://github.com/Jeongyounghyeon) |
+| [**진혜민**](./members/hyemin_jin.md) | Backend | <hmjin11@gmail.com> | 검색 엔진(ES) 구축, 포인트/리워드 시스템 | [GitHub](https://github.com/hmJin11) |
+| [**임성제**](./members/seongje_lim.md) | Backend | <seongje00416@gmail.com> | WebFlux 리액티브 모듈, 실시간 알림 서버, 통계 API | [GitHub](https://github.com/seongje00416) |
+| [**강주영**](./members/jooyoung_kang.md) | **Leader** · Infra | <karjyk@gmail.com> | 프로젝트 총괄, CI/CD 파이프라인, 아키텍처 설계 | [Blog](https://velog.io/@kkang_/posts) |
 
 ---
 
 ## Directory Structure
+
 ```
 projects/fooding/
 ├── fooding.md            # Product Spec
