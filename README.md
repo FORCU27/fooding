@@ -48,6 +48,25 @@
 
 ---
 
+## Team
+
+저희 팀원들의 이름을 클릭하면 상세 프로필을 확인할 수 있습니다.
+
+| Name | Role | Email | Key Contributions | Links |
+|:---:|:---|:---|:---|:---|
+| [**고윤아**](./members/yuna_ko.md) | Design | <ko.yuna0412@gmail.com> | User App UI/UX, 브랜드 아이덴티티, 프로토타이핑 | [GitHub](https://github.com/bnb0412) [LinkedIn](https://www.linkedin.com/in/%EC%9C%A4%EC%95%84-%EA%B3%A0-2804a8306/) |
+| [**지윤서**](./members/younseo_ji.md) | Design | <jysjys7620@naver.com> | 사장님(CEO) 대시보드 디자인, 마케팅 에셋 제작 | [LinkedIn](https://www.linkedin.com/in/younseo-ji-10a5053a0) |
+| [**김지연**](./members/jiyeon_kim.md) | Frontend | <cleo0718@gmail.com> | User App 메인 개발, 예약/리뷰 UX 고도화 | [GitHub](https://github.com/CLEO525) [LinkedIn](https://www.linkedin.com/in/cleo0718) |
+| [**김모경**](./members/mokyung_kim.md) | Frontend | <monee1001@naver.com> | CEO 고객관리 페이지, 매장용 리워드 앱 개발 | [GitHub](https://github.com/moneekim) [LinkedIn](https://www.linkedin.com/in/%EB%AA%A8%EA%B2%BD-%EA%B9%80-7a7a33268/) |
+| [**이원종**](./members/wonjong_lee.md) | Frontend | <leewj5192@gmail.com> | Electron 기반 CEO 데스크탑 앱, 매장용 웨이팅 앱 | [GitHub](https://github.com/leewj5192) [LinkedIn](https://www.linkedin.com/in/%EC%9B%90%EC%A2%85-%EC%9D%B4-4a0b19266/) |
+| [**신상호**](./members/sangho_shin.md) | Frontend | <nononcrust@gmail.com> | 디자인 시스템 구축, 공통 컴포넌트 라이브러리 관리 | [Blog](https://nonon.dev/) [GitHub](https://github.com/orgs/FORCU27/people/nononcrust) |
+| [**정영현**](./members/younghyeon_jeong.md) | Backend | <jeongyounghyeon1106@gmail.com> | API Gateway, 웨이팅 SSE, 성능 최적화 | [GitHub](https://github.com/Jeongyounghyeon) [LinkedIn](https://www.linkedin.com/in/%EC%98%81%ED%98%84-%EC%A0%95-7129a3320/) |
+| [**진혜민**](./members/hyemin_jin.md) | Backend | <hmjin11@gmail.com> | 검색 엔진(ES) 구축, 포인트/리워드 시스템 | [GitHub](https://github.com/hmJin11) [LinkedIn](https://www.linkedin.com/in/hyemin-jin-b09709393) |
+| [**임성제**](./members/seongje_lim.md) | Backend | <seongje00416@gmail.com> | WebFlux 리액티브 모듈, 실시간 알림 서버, 통계 API | [GitHub](https://github.com/seongje00416) [Blog](https://www.notion.so/seongje00416/4c36eb99dd704af8b7356173ef0cb247?v=18df116d5c724a3794e5ef8fcd58c77e&source=copy_link) |
+| [**강주영**](./members/jooyoung_kang.md) | **Leader** · Infra | <karjyk@gmail.com> | 프로젝트 총괄, CI/CD 파이프라인, 아키텍처 설계 | [Blog](https://velog.io/@kkang_/posts) [LinkedIn](https://www.linkedin.com/in/jooyoung-kang-770577160/) |
+
+---
+
 ## Service Links
 
 ### Public Sites
@@ -111,19 +130,24 @@ graph TD
         GW --> Order
         GW --> Review
         GW --> CRM
+        GW --> FileServer
     end
     
     subgraph "Data & Infra"
         Redis[(Redis Cache)]
-        Kafka{Kafka Streams}
-        DB[(PostgreSQL)]
+        Kafka{Kafka}
+        DB[(MySQL)]
+        Mongo[(MongoDB)]
         ES[(Elasticsearch)]
+        S3[(AWS S3)]
     end
+
+    FileServer --> S3
 ```
 
 - **Frontend**: React Native, Electron (Desktop), Tailwind CSS, Storybook
 - **Backend**: Spring Boot (WebFlux), QueryDSL, Kotlin
-- **Infra & Data**: Docker Compose, Kafka, Elasticsearch, Redis, SSE (Realtime), AWS S3
+- **Infra & Data**: Docker Compose, Kafka, Elasticsearch, Redis, MongoDB, MySQL, SSE (Realtime), AWS S3
 
 ---
 
@@ -153,33 +177,13 @@ graph TD
 
 ---
 
-## Impact Metrics
+## Target Metrics
 
 | Metric | Value | Note |
 |:---:|:---:|:---|
-| **MAU** | 3.0M+ | 월간 활성 사용자 |
-| **Stores** | 50,000+ | 입점 매장 수 |
-| **Trans. Vol** | 3,000억+ | 연간 POS 거래액 |
+| **MAU** | 1,000 | 월간 활성 사용자 |
+| **Stores** | 100+ | 입점 매장 수 |
 | **Rating** | 4.8/5.0 | 사장님 만족도 |
-
----
-
-## Team
-
-저희 팀원들의 이름을 클릭하면 상세 프로필을 확인할 수 있습니다.
-
-| Name | Role | Email | Key Contributions | Links |
-|:---:|:---|:---|:---|:---|
-| [**고윤아**](./members/yuna_ko.md) | Design | <ko.yuna0412@gmail.com> | User App UI/UX, 브랜드 아이덴티티, 프로토타이핑 | [LinkedIn](https://www.linkedin.com/in/%EC%9C%A4%EC%95%84-%EA%B3%A0-2804a8306/) |
-| [**지윤서**](./members/younseo_ji.md) | Design | <jysjys7620@naver.com> | 사장님(CEO) 대시보드 디자인, 마케팅 에셋 제작 | [LinkedIn](https://www.linkedin.com/in/younseo-ji-10a5053a0) |
-| [**김지연**](./members/jiyeon_kim.md) | Frontend | <cleo0718@gmail.com> | User App 메인 개발, 예약/리뷰 UX 고도화 | [GitHub](https://github.com/CLEO525) |
-| [**김모경**](./members/mokyung_kim.md) | Frontend | <monee1001@naver.com> | CEO 고객관리 페이지, 매장용 리워드 앱 개발 | [GitHub](https://github.com/moneekim) |
-| [**이원종**](./members/wonjong_lee.md) | Frontend | <leewj5192@gmail.com> | Electron 기반 CEO 데스크탑 앱, 매장용 웨이팅 앱 | [GitHub](https://github.com/leewj5192) |
-| [**신상호**](./members/sangho_shin.md) | Frontend | <nononcrust@gmail.com> | 디자인 시스템 구축, 공통 컴포넌트 라이브러리 관리 | [Blog](https://nonon.dev/) |
-| [**정영현**](./members/younghyeon_jeong.md) | Backend | <jeongyounghyeon1106@gmail.com> | API Gateway, 웨이팅 SSE, 성능 최적화 | [GitHub](https://github.com/Jeongyounghyeon) |
-| [**진혜민**](./members/hyemin_jin.md) | Backend | <hmjin11@gmail.com> | 검색 엔진(ES) 구축, 포인트/리워드 시스템 | [GitHub](https://github.com/hmJin11) |
-| [**임성제**](./members/seongje_lim.md) | Backend | <seongje00416@gmail.com> | WebFlux 리액티브 모듈, 실시간 알림 서버, 통계 API | [GitHub](https://github.com/seongje00416) |
-| [**강주영**](./members/jooyoung_kang.md) | **Leader** · Infra | <karjyk@gmail.com> | 프로젝트 총괄, CI/CD 파이프라인, 아키텍처 설계 | [Blog](https://velog.io/@kkang_/posts) |
 
 ---
 
