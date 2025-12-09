@@ -98,6 +98,14 @@
 | [**Fooding Partner**](./products/fooding-partner/README.md) | B2B | 식자재/기기 최저가 구매, 정기 배송, 입점 업체 관리 |
 | [**Fooding CEO**](./products/fooding-ceo/README.md) | 사장님 | 다지점 통합 대시보드, 매출/고객 분석, 직원 관리, 커뮤니티 |
 
+## Product Preview
+
+사이드 프로젝트 소개용으로 모듈별 대표 화면을 빠르게 훑어보고, 상세 워크플로는 각 제품 README에서 확인하세요.
+
+| User App | POS | 매장용 App | CEO |
+| :---: | :---: | :---: | :---: |
+| <img src="./products/fooding-user/assets/phone-1.png" alt="Fooding User 홈" width="210" /> | <img src="./products/fooding-pos/assets/phone-2.png" alt="Fooding POS 주문" width="210" /> | <img src="./products/fooding-app/assets/phone-1.png" alt="Fooding App 웨이팅" width="210" /> | <img src="./products/fooding-ceo/assets/phone-1.png" alt="Fooding CEO 대시보드" width="210" /> |
+
 ---
 
 ## Core Features

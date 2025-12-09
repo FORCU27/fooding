@@ -6,6 +6,16 @@
 | **Value Promise** | 주문, 주방, 결제, CRM을 하나의 화면에서 통합 관리 |
 | **Deployment** | Windows/Mac 앱(계획), 웹 관리 콘솔, 하드웨어 연동 |
 
+## Screenshots
+
+| 테이블 개요 | 주문 흐름 | 결제 | 리포트 |
+| :---: | :---: | :---: | :---: |
+| <img src="./assets/phone-1.png" alt="테이블 개요" width="220" /> | <img src="./assets/phone-2.png" alt="주문 접수" width="220" /> | <img src="./assets/phone-3.png" alt="결제 플로우" width="220" /> | <img src="./assets/phone-4.png" alt="리포트 위젯" width="220" /> |
+
+| 주문/주방 동기화 | 웨이팅 연동 | CRM/리워드 | 설정 |
+| :---: | :---: | :---: | :---: |
+| <img src="./assets/phone-5.png" alt="주방 모니터링" width="220" /> | <img src="./assets/phone-6.png" alt="웨이팅 연동" width="220" /> | <img src="./assets/phone-7.png" alt="CRM 연동" width="220" /> | <img src="./assets/phone-8.png" alt="설정" width="220" /> |
+
 ## Operational Goals
 - 테이블 회전율과 주문 정확도를 높이고, 주방·홀 간 커뮤니케이션을 단축합니다.
 - 매장 내 웨이팅/예약 현황과 POS 주문을 실시간 동기화해 이중 입력을 제거합니다.

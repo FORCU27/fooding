@@ -6,6 +6,16 @@
 | **Device** | iOS/Android (React Native) |
 | **Role** | POS와 CEO 사이를 잇는 모바일 운영 허브 |
 
+## Screenshots
+
+| 웨이팅 현황 | 예약 관리 | 리워드 적립 | 직원 커뮤니케이션 |
+| :---: | :---: | :---: | :---: |
+| <img src="./assets/phone-1.png" alt="웨이팅 현황" width="220" /> | <img src="./assets/phone-2.png" alt="예약 관리" width="220" /> | <img src="./assets/phone-3.png" alt="리워드 적립" width="220" /> | <img src="./assets/phone-4.png" alt="직원 커뮤니케이션" width="220" /> |
+
+| 호출/알림 | 포인트 차감 | 키오스크 연계 | 설정 |
+| :---: | :---: | :---: | :---: |
+| <img src="./assets/phone-5.png" alt="호출/알림" width="220" /> | <img src="./assets/phone-6.png" alt="포인트 차감" width="220" /> | <img src="./assets/phone-7.png" alt="키오스크 연계" width="220" /> | <img src="./assets/phone-8.png" alt="설정" width="220" /> |
+
 ## Value Proposition
 - 매장 실무진이 **언제 어디서나 웨이팅/예약 현황**을 확인하고 제어할 수 있습니다.
 - 직원이 카운터가 아닌 자리에서도 **포인트 적립, 쿠폰 발급, 응대 메모**를 처리합니다.

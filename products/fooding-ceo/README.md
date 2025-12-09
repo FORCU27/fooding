@@ -6,6 +6,16 @@
 | **Platform** | Web + Electron Desktop(App) |
 | **Promise** | 매출/CRM/운영 현황을 한 대시보드에서 통합 분석 |
 
+## Screenshots
+
+| 홈 대시보드 | 매출 비교 | 고객 세그먼트 | 자동 캠페인 |
+| :---: | :---: | :---: | :---: |
+| <img src="./assets/phone-1.png" alt="홈 대시보드" width="220" /> | <img src="./assets/phone-2.png" alt="매출 비교" width="220" /> | <img src="./assets/phone-3.png" alt="고객 세그먼트" width="220" /> | <img src="./assets/phone-4.png" alt="캠페인" width="220" /> |
+
+| 파트너 연동 | 커뮤니티 허브 | 설정 |
+| :---: | :---: | :---: |
+| <img src="./assets/phone-5.png" alt="파트너 연동" width="220" /> | <img src="./assets/phone-6.png" alt="커뮤니티" width="220" /> | <img src="./assets/phone-7.png" alt="설정" width="220" /> |
+
 ## Value Proposition
 - POS, Partner, User 앱의 데이터를 하나로 묶어 **실시간 BI**를 제공합니다.
 - 다수의 매장과 직원을 관리하며 **행동형 인사이트**(쿠폰 발송, 재고 발주)를 바로 실행하게 합니다.

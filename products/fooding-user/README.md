@@ -6,6 +6,12 @@
 | **Value Promise** | 신뢰 가능한 리뷰와 편리한 방문 경험을 단일 앱에서 제공 |
 | **Current Stage** | 출시(안드로이드/웹), iOS 런치 준비 |
 
+## Screenshots
+
+| 홈/탐색 | 식당 상세 | 예약/웨이팅 | 마이페이지 |
+| :---: | :---: | :---: | :---: |
+| <img src="./assets/phone-1.png" alt="홈 피드" width="220" /> | <img src="./assets/phone-2.png" alt="식당 상세" width="220" /> | <img src="./assets/phone-3.png" alt="예약 흐름" width="220" /> | <img src="./assets/phone-4.png" alt="마이페이지" width="220" /> |
+
 ## Value Proposition
 - 지역 기반 검색과 인증 리뷰를 결합해 **실제 방문 이력** 중심의 추천을 제공합니다.
 - 예약, 웨이팅, 리뷰, 리워드까지 끊김 없는 여정을 설계해 재방문률을 높입니다.
